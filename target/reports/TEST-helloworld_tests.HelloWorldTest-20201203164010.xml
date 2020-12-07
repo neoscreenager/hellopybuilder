@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloworld_tests.HelloWorldTest-20201203164010" tests="1" file="helloworld_tests.py" time="0.004" timestamp="2020-12-03T16:40:10" failures="1" errors="0" skipped="0">
+	<testcase classname="helloworld_tests.HelloWorldTest" name="test_should_issue_hello_world_message" time="0.004" timestamp="2020-12-03T16:40:10">
+		<failure type="VerificationError" message="
+Wanted but not invoked:
+
+    write('abhishek')
+
+Instead got:
+
+    write('Hello world of Python\n')
+
+"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/usr/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/home/neo/hellopybuilder/src/unittest/python/helloworld_tests.py", line 14, in test_should_issue_hello_world_message
+    verify(out).write("abhishek")
+  File "/home/neo/hellopybuilder/target/venv/build/cpython-3.8.5.final.0/lib/python3.8/site-packages/mockito/invocation.py", line 242, in __call__
+    self.verification.verify(self, len(matched_invocations))
+  File "/home/neo/hellopybuilder/target/venv/build/cpython-3.8.5.final.0/lib/python3.8/site-packages/mockito/verification.py", line 93, in verify
+    raise VerificationError(
+mockito.verification.VerificationError: 
+Wanted but not invoked:
+
+    write('abhishek')
+
+Instead got:
+
+    write('Hello world of Python\n')
+
+
+]]></failure>
+	</testcase>
+</testsuite>

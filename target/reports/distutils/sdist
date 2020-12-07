@@ -1,0 +1,43 @@
+running clean
+'build/temp.linux-x86_64-3.8' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.8' does not exist -- can't clean it
+running sdist
+running egg_info
+creating hellopybuilder.egg-info
+writing hellopybuilder.egg-info/PKG-INFO
+writing dependency_links to hellopybuilder.egg-info/dependency_links.txt
+writing namespace_packages to hellopybuilder.egg-info/namespace_packages.txt
+writing top-level names to hellopybuilder.egg-info/top_level.txt
+writing manifest file 'hellopybuilder.egg-info/SOURCES.txt'
+'license_file' option was not specified
+reading manifest file 'hellopybuilder.egg-info/SOURCES.txt'
+writing manifest file 'hellopybuilder.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: Check: missing required meta-data: url
+
+warning: Check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating hellopybuilder-1.0.dev0
+creating hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying files to hellopybuilder-1.0.dev0...
+copying helloworld.py -> hellopybuilder-1.0.dev0
+copying setup.py -> hellopybuilder-1.0.dev0
+copying hellopybuilder.egg-info/PKG-INFO -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying hellopybuilder.egg-info/SOURCES.txt -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying hellopybuilder.egg-info/dependency_links.txt -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying hellopybuilder.egg-info/namespace_packages.txt -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying hellopybuilder.egg-info/top_level.txt -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+copying hellopybuilder.egg-info/zip-safe -> hellopybuilder-1.0.dev0/hellopybuilder.egg-info
+not copying hellopybuilder.egg-info/SOURCES.txt (output up-to-date)
+Reading configuration from hellopybuilder-1.0.dev0/setup.cfg
+Adding new section [egg_info] to hellopybuilder-1.0.dev0/setup.cfg
+Setting egg_info.tag_build to '' in hellopybuilder-1.0.dev0/setup.cfg
+Setting egg_info.tag_date to 0 in hellopybuilder-1.0.dev0/setup.cfg
+Writing hellopybuilder-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'hellopybuilder-1.0.dev0' (and everything under it)

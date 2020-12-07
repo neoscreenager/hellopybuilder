@@ -1,0 +1,12 @@
+Collecting mockito
+  Downloading mockito-1.2.2.tar.gz (23 kB)
+Building wheels for collected packages: mockito
+  Building wheel for mockito (setup.py): started
+  Building wheel for mockito (setup.py): finished with status 'done'
+  Created wheel for mockito: filename=mockito-1.2.2-py3-none-any.whl size=29386 sha256=6c2768c5162854d86791c9dc6400e8a9c8335ce46df35a2a2cde16f0413faf91
+  Stored in directory: /home/neo/.cache/pip/wheels/eb/10/b5/004d897773516ec01065eb96df902f01b0d363fe17a0ee1a9e
+Successfully built mockito
+Installing collected packages: mockito
+Successfully installed mockito-1.2.2
+WARNING: You are using pip version 20.2.3; however, version 20.3 is available.
+You should consider upgrading via the '/home/neo/hellopybuilder/target/venv/build/cpython-3.8.5.final.0/bin/python -m pip install --upgrade pip' command.
